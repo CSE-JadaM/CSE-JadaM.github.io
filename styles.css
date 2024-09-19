@@ -9,3 +9,33 @@ h1 {
 .about{
     color: yellow;
 }
+.skills {
+    background-color: #e0ab47;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.projects {
+    background-color: #f39c12;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #ae2727;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #dbd034;
+}
+
+a:hover {
+    text-decoration: underline;
+}
