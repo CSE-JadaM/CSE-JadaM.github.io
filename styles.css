@@ -12,17 +12,14 @@ h1 {
 .skills {
     background-color: #e0ab47;
     color: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
+ 
 }
 .projects {
     display: flex;
     flex-wrap:wrap;
 }
 .projects {
-    background-color: #f39c12;
-    color: white;
+    background: #fdfdfd;
     padding: 20px 10px;
     border-radius: 25px;
     margin: 10px;
@@ -32,9 +29,6 @@ h1 {
 .contact {
     background-color: #ae2727;
     color: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
 }
 
 a {
@@ -44,3 +38,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(21, 90, 47); /* choose a color */
+    display: block;
+    margin: auto;
+    }
