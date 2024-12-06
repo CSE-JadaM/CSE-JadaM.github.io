@@ -1,65 +1,104 @@
-body{
-    background-color: #530f0f;
-font-family: Arial, Helvetica, sans-serif;
+/* General Styles */
+body {
+    background-color: #1a1a2e;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eaeaea;
+    line-height: 1.6;
 }
-h1 {
-    color: #000000;
+
+a { /* Change the appearance of ALL links */
+    text-decoration: none;
     text-align: center;
-    }
-
-.skills {
-    background-color: #e0ab47;
-    color: white;
- 
-}
-.projects {
-    display: flex;
-    flex-wrap:wrap;
-}
-.projects {
-    background: #fdfdfd;
-    padding: 20px 10px;
-    border-radius: 25px;
-    margin: 10px;
-    width: 30%;
-}
-
-.contact {
-    background-color: #ae2727;
-    color: white;
-}
-
-a {
-    color: #dbd034;
+    color: #f5a623;
+    transition: color 0.3s;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #e94560;
 }
-.project img{
+
+/* Header Styles */
+h1 {
+    color: #f5a623;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+/* Projects Section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.project img {
     width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid rgb(21, 90, 47); /* choose a color */
+    margin: 10px auto;
+    border: 3px solid #7e0ec9;
+    border-radius: 10px; /* Rounded corners */
     display: block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project p {
+    text-align: center;
+    margin: 15px;
+    color: #eaeaea;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+.about img {
+    width: 250px; /* Increased width for larger size */
+    height: 350px; /* Adjusted height to maintain aspect ratio */
+    border-radius: 20%; /* Keep rounded edges */
+    border: 3px solid #0f3460; /* Deep Blue  */
+}
+
+.about p {
+    width: 50%;
+    text-align: center;
     margin: auto;
-    }
-    .about{
-        display:flex;
-        flex-wrap:wrap;
-        margin-right: 100px;
-        margin-left: 100px;
-        justify-content: center;
-    }
-    .about img {
-        width: 150px;
-        height: 200px;
-        border-radius: 25%;
-        border: 2px solid rgb(126, 14, 201);
-        }
-        .about p {
-            width:50%;
-            text-align: center;
-            margin: auto;
-            line-height: 125%;
-            }
+    line-height: 1.5;
+    color: #eaeaea;
+}
+
+/* Contact Section */
+.contact {
+    padding-left: 20px;
+}
+
+.contact p {
+    color: #eaeaea;
+    font-size: 16px;
+}
+
+/* Skills Section */
+.skills {
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.skills a {
+    color: #f5a623;
+}
+
+   
